@@ -1,0 +1,129 @@
+.section {
+  padding: 2rem 12rem;
+  background-color: #fff;
+  color: #000;
+  h2 {
+    text-align: center;
+    font-size: 3rem;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 0;
+    .container {
+      margin-bottom: 50px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      .card {
+        width: calc(100% / 3 - 40px);
+        .top {
+          display: flex;
+          align-items: center;
+          column-gap: 10px;
+          img {
+            width: 80px;
+            object-fit: contain;
+          }
+          p {
+            font-size: 1.4rem;
+            font-weight: 600;
+          }
+        }
+        .bar {
+          margin-top: 20px;
+          width: 100%;
+          background-color: #eee;
+          border-radius: 4px;
+          overflow: hidden;
+          .inner {
+            // border-radius: 4px;
+            width: 20%;
+            font-size: 14px;
+            color: #fff;
+            padding: 5px;
+            text-align: center;
+          }
+        }
+      }
+    }
+    .downloadBtn {
+      margin-top: 50px;
+      border: 2px solid #000;
+      font-size: 1.2rem;
+      font-weight: 500;
+      padding: 10px 25px;
+      border-radius: 4px;
+      outline: none;
+      transition: 0.4s;
+      cursor: pointer;
+      &:hover {
+        color: #fff;
+        background-color: #000;
+        transform: scale(1.05);
+      }
+    }
+  }
+  @media (max-width: 1600px) {
+    .content {
+      .container {
+        .card {
+          // width: calc(100% / 2 - 40px);
+        }
+      }
+    }
+  }
+  @media (max-width: 1300px) {
+    .content {
+      .container {
+        .card {
+          // width: calc(100% / 2 - 40px);
+        }
+      }
+    }
+  }
+  @media (max-width: 1000px) {
+    .content {
+      .container {
+        .card {
+          width: calc(100% / 2 - 40px);
+        }
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    .content {
+      width: 100%;
+      .container {
+        width: 100%;
+        .card {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1600px) {
+  .section {
+    padding: 2rem 8rem;
+  }
+}
+@media (max-width: 1300px) {
+  .section {
+    padding: 2rem 6rem;
+  }
+}
+@media (max-width: 1000px) {
+  .section {
+    padding: 2rem 2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .section {
+    padding: 2rem 1rem;
+  }
+}
