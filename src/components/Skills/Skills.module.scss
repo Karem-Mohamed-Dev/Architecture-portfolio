@@ -38,7 +38,6 @@
           border-radius: 4px;
           overflow: hidden;
           .inner {
-            // border-radius: 4px;
             width: 20%;
             font-size: 14px;
             color: #fff;
@@ -62,24 +61,6 @@
         color: #fff;
         background-color: #000;
         transform: scale(1.05);
-      }
-    }
-  }
-  @media (max-width: 1600px) {
-    .content {
-      .container {
-        .card {
-          // width: calc(100% / 2 - 40px);
-        }
-      }
-    }
-  }
-  @media (max-width: 1300px) {
-    .content {
-      .container {
-        .card {
-          // width: calc(100% / 2 - 40px);
-        }
       }
     }
   }
