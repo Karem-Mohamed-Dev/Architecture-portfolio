@@ -3,11 +3,11 @@ import classes from "./ProjectPage.module.scss";
 import { FaArrowLeftLong } from "react-icons/fa6";
 import { ProjectsData } from "../../db/ProjectsData";
 import { Link } from "react-router-dom";
-import Footer from "../Footer/Footer";
 
 const ProjectPage = () => {
   const { projectId } = useParams();
   const data = ProjectsData.filter((ele) => ele.id === Number(projectId))[0];
+  scrollTo(0, 0)
   return (
     <>
       <section className={classes.section}>
@@ -61,7 +61,6 @@ const ProjectPage = () => {
         </div>
         <div className="blur2"></div>
       </section>
-      <Footer />
     </>
   );
 };

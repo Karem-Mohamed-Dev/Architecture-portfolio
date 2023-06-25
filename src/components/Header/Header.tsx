@@ -1,7 +1,7 @@
 import classes from "./Header.module.scss";
 import { RiMenu3Line } from "react-icons/ri";
 import { HiXMark } from "react-icons/hi2";
-import img from "../../assets/log.svg";
+import img from "../../../public/log.svg";
 import { useState } from "react";
 
 const Header = () => {

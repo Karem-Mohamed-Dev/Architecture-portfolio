@@ -1,13 +1,11 @@
-import Header from "./Header/Header";
 import Hero from "./Hero/Hero";
 import About from "./About/About";
 import Experience from "./Experience/Experience";
 import Projects from "./Projects/Projects";
 import Skills from "./Skills/Skills";
-import Footer from "./Footer/Footer";
+import Header from "./Header/Header";
 
 const Root = () => {
-  // console.log(document.body.clientHeight - document.body.scrollHeight)
   return (
     <>
       <Header />
@@ -18,9 +16,8 @@ const Root = () => {
       <div className="blur2"></div>
       <Projects />
       <Skills />
-      <Footer />
     </>
-  )
-}
+  );
+};
 
-export default Root
+export default Root;
