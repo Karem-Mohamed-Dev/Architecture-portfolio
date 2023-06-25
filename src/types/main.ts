@@ -14,7 +14,7 @@ export type head = { letter: string; title: string };
 
 export type skill = {
   name: string,
-  imgType: string,
   skillPercint: string,
   color: string
+  link: string
 }

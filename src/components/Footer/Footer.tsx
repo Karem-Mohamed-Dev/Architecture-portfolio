@@ -40,13 +40,14 @@ const Footer = () => {
         <p>
           Made By{" "}
           <a
-          className={classes.me}
+            className={classes.me}
             target="_blank"
             href="https://www.linkedin.com/in/karem-mohamed-a789a6239/"
           >
             Karim Mohamed.
           </a>{" "}
-          © 2023 NS. All rights reserved.
+          Designed By <a href="https://dribbble.com/Jawadd_uiux">Jawadd</a> ©
+          2023 NS. All rights reserved.
         </p>
       </div>
     </footer>

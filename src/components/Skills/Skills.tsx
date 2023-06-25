@@ -11,7 +11,7 @@ const Skills = () => {
           {skillsData.map((ele, i) => (
             <div key={i} className={classes.card}>
               <div className={classes.top}>
-                <img key={i} src={`../../../public/images/${ele.name}.${ele.imgType}`} alt={ele.name} />
+                <img key={i} src={ele.link} alt={ele.name} />
                 <p>{ele.name}</p>
               </div>
               <div className={classes.bar}>
